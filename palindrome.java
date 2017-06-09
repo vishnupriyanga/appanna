@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class pali
+public class palindrome
 {
 public static void main(String args[])
 {
@@ -13,7 +13,7 @@ int x=a%10;
 r=(x*10)+r;
 a=a/10;
 }
-if(a==x)
+if(a==r)
 {
 System.out.println("palindrome");
 }
