@@ -5,10 +5,10 @@ public class anagram
 public static void main(String args[])
 {
 Scanner s=new Scanner(System.in);
-String str=s.next();
+String str=s.next().toLowerCase();
 char c[]=str.toCharArray();
 int n=str.length();
-String s1=s.next();
+String s1=s.next().toLowerCase();
 int m=s1.length();
 if(n==m)
 {
